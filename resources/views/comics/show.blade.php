@@ -14,8 +14,9 @@
                         <h5 class="card-title">{{ $comic->title }}</h5>
                         <p class="card-text">{{ $comic->description }}</p>
                         <p>Data di uscita: {{ $comic->sale_date }}</p>
-                        <p>Genere: {{ $comic->series }}</p>
-                        <p>Prezzo: {{ $comic->price }}</p>
+                        <p>Serie: {{ $comic->series }}</p>
+                        <p>Tipo: {{ $comic->type }}</p>
+                        <p>Prezzo: €{{ $comic->price }}</p>
                     </div>
                 </div>
             </div>

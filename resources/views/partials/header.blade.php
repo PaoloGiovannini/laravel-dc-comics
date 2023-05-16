@@ -10,6 +10,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{route('comics.index')}}">Fumetti</a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{route('comics.create')}}" class="btn btn-primary">Aggiungi fumetto</a>
+                </li>
             </ul>
             </div>
         </div>
